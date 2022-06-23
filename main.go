@@ -92,12 +92,5 @@ func main() {
 	s := <-c
 	log.Warn("Received stop signal:", s)
 	engine.Stop()
-
-	if err := typex.GLOBAL_LOGGER.Close(); err != nil {
-		return
-	}
-	if err := typex.LUA_LOGGER.Close(); err != nil {
-		return
-	}
 	os.Exit(0)
 }

@@ -3,7 +3,7 @@ module modbus_485_sensor_gateway
 go 1.17
 
 require (
-	github.com/i4de/rulex v0.0.0-20220622090701-9ba4bc9b0555
+	github.com/i4de/rulex v0.0.0-20220623074609-a9641aeffcd9
 	github.com/ngaut/log v0.0.0-20210830112240-0124ec040aeb
 )
 
